@@ -1,6 +1,6 @@
 """This particular HashMap function does not handle the collision of Key 
     To handle that please check hashTableUpdate.py in same repo"""
-class HashTale:
+class HashTable:
     def __init__(self):
         self.MAX=100
         self.arr = [None for i in range(self.MAX)]
@@ -37,7 +37,7 @@ class HashTale:
         self.arr[h] = None
 
 if __name__ == '__main__':
-    table = HashTale()
+    table = HashTable()
 
     """table.add('march 6',320)
     print(table.get('march 6'))"""
